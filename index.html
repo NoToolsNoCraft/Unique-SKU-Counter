@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unique SKU Counter | Productivity Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Unique SKU Counter</h1>
+    <p class="subtitle">Quickly find how many unique SKU codes you have in your product list.</p>
+    <button id="ctaBtn">Try the App ↓</button>
+  </header>
+
+  <section class="why-useful">
+  <h2>Why Use This Tool?</h2>
+  <p>
+    Managing large product lists is often challenging, especially when your data contains multiple duplicate SKUs. For example, if a product code is accidentally listed several times in inventory or order reports, it can cause inaccurate stock counts, ordering mistakes, and confusion across teams.
+  </p>
+  <p>
+    This tool quickly identifies and counts the unique SKUs from any list you paste in — saving you time, improving accuracy, and helping you maintain clean, reliable product data for inventory management, sales reporting, or e-commerce catalogs.
+  </p>
+  <h3>How to Use</h3>
+  <ol>
+    <li>Copy your list of SKUs from any source (spreadsheet, inventory system, email, etc.).</li>
+    <li>Paste the entire list into the text area below.</li>
+    <li>Click <strong>"Count Unique SKUs"</strong>.</li>
+    <li>View the total count and the unique SKU codes displayed in columns.</li>
+  </ol>
+  <p>
+    By quickly spotting duplicates and knowing exactly which SKUs are unique, you can reduce errors and streamline your workflows.
+  </p>
+</section>
+
+
+  <section id="appSection" class="app-container">
+    <h2>SKU Counter Tool</h2>
+    <textarea id="skuInput" placeholder="Paste your SKUs here..."></textarea>
+    <button id="countBtn">Count Unique SKUs</button>
+    <h3 id="resultHeader"></h3>
+    <ul id="uniqueList"></ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SKU Tools. All rights reserved.</p>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+
